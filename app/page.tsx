@@ -32,7 +32,7 @@ export default function DigitalCard() {
     {
       icon: MessageCircle,
       label: "WhatsApp",
-      url: "https://wa.me/919495257093",
+      url: "https://wa.me/919846127455",
       color: "hover:text-green-500",
     },
   ]
@@ -155,18 +155,18 @@ export default function DigitalCard() {
               <div className="flex justify-center mb-8">
                 <div className="relative w-28 h-28 md:w-32 md:h-32">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary to-blue-700 rounded-full shadow-2xl animate-float" />
-               <div className="absolute inset-0 flex items-center justify-center">
-  <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden flex items-center justify-center bg-white">
-    <Image
-      src="/logo.png"
-      alt="Bosco Bags Logo"
-      fill
-      className="object-contain object-center"
-      sizes="(max-width: 768px) 100vw, 50vw"
-      priority
-    />
-  </div>
-</div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden flex items-center justify-center bg-white">
+                      <Image
+                        src="/logo.png"
+                        alt="Bosco Bags Logo"
+                        fill
+                        className="object-contain object-center"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        priority
+                      />
+                    </div>
+                  </div>
 
 
                 </div>
@@ -210,7 +210,7 @@ export default function DigitalCard() {
                   <Phone className="w-5 h-5 text-blue-300 group-hover:text-white group-hover:scale-110 transition-all flex-shrink-0" />
                   <div className="flex-1 min-w-0">
                     <p className="text-xs text-blue-200 font-medium">Phone</p>
-                    <p className="text-sm font-bold text-white">+91 9745561967</p>
+                    <p className="text-sm font-bold text-white">+91 9846127455</p>
                   </div>
                 </a>
 
