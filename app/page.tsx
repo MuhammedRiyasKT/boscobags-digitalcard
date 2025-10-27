@@ -155,17 +155,16 @@ export default function DigitalCard() {
               <div className="flex justify-center mb-8">
                 <div className="relative w-28 h-28 md:w-32 md:h-32">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary to-blue-700 rounded-full shadow-2xl animate-float" />
-                <div className="absolute inset-0 flex items-center justify-center">
-  <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden">
+               <div className="absolute inset-0 flex items-center justify-center">
+  <div className="relative w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden bg-[#00239C] flex items-center justify-center">
     <Image
-      src="logo.png"
+      src="/logo.png"
       alt="Bosco Bags Logo"
       fill
-      className="object-cover drop-shadow-lg"
+      className="object-contain drop-shadow-lg"
     />
   </div>
 </div>
-
 
                 </div>
               </div>
